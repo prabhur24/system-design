@@ -1,7 +1,11 @@
 # system-design
 
 1.  [02/01/2022]-[what it is?](https://www.educative.io/blog/system-design-primer#what)
-2.  [03/01/2022][]()
+2.  [03/01/2022][Kinds of System]
+        - Horizontal Scaling
+        - Vertical Scaling 
+        - Monolithic application
+        - Micro services
 3.  [04/01/2022][]()
 4.  [05/01/2022][]()
 5.  [06/01/2022][]()
