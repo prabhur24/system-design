@@ -6,7 +6,13 @@
         - Vertical Scaling <br>
         - Monolithic application<br>
         - Micro services<br>
-3.  [04/01/2022][]()
+3.  [04/01/2022]<br>
+        - Requirement Clarification (Functional & Non Funcational)
+        - Estimation of Important data (queries/traffic/storage)<br>
+        - Data Flow (Data model & How data will flow) & [choosing Databases](https://www.educative.io/blog/database-design-tutorial) <br>
+        - High level design & Detailed Design <br>
+        - Identifying Bottlenecks/Resolve from Detailed Design & mitigating them
+    
 4.  [05/01/2022][]()
 5.  [06/01/2022][]()
 6.  [07/01/2022][]()
