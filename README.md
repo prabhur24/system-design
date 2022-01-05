@@ -7,7 +7,7 @@
         - Monolithic application<br>
         - Micro services<br>
 3.  [04/01/2022]<br>
-        - Requirement Clarification (Functional & Non Funcational)<br>
+        - Requirement Clarification (Functional & Non-Functional)<br>
         - Estimation of Important data (queries/traffic/storage)<br>
         - Data Flow (Data model & How data will flow) & [choosing Databases](https://www.educative.io/blog/database-design-tutorial) <br>
         - High level design & Detailed Design <br>
