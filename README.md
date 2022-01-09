@@ -14,9 +14,9 @@
         - Identifying Bottlenecks/Resolve from Detailed Design & mitigating them
     
 4.  [05/01/2022][HW/SW](https://www.educative.io/blog/hardware-vs-software-components-computer)
-        - Architectural Design - Abstract Version
-        - HighLevel Design - part break down into sub system and modules
-        - Detailed Design - implementation 
+        - Architectural Design - Abstract Version<br>
+        - HighLevel Design - part break down into sub system and modules<br>
+        - Detailed Design - implementation <br>
 5.  [06/01/2022][]()
 6.  [07/01/2022][]()
 7.  [08/01/2022][]()
