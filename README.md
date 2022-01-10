@@ -13,11 +13,15 @@
         - High level design & Detailed Design <br>
         - Identifying Bottlenecks/Resolve from Detailed Design & mitigating them
     
-4.  [05/01/2022][HW/SW](https://www.educative.io/blog/hardware-vs-software-components-computer)
+4.  [05/01/2022][HW/SW](https://www.educative.io/blog/hardware-vs-software-components-computer)<br>
         - Architectural Design - Abstract Version<br>
         - HighLevel Design - part break down into sub system and modules<br>
         - Detailed Design - implementation <br>
-5.  [06/01/2022][]()
+5.  [06/01/2022][System design fundamentals](https://www.educative.io/blog/complete-guide-to-system-design) <br>
+        - Scalability - Scaling(Horizontal/Vertical)<br>
+        - Microservice Architecture<br>
+        - Proxy Server <br>
+        - CAP Theorem<br>
 6.  [07/01/2022][]()
 7.  [08/01/2022][]()
 8.  [09/01/2022][]()
