@@ -36,7 +36,11 @@
         4. PACELC Theorem - build on CAP & states that an additional trade-off exists: between latency and
            consistency.<br>
 6. [07/01/2022] [Redundancy & Replication](https://www.educative.io/blog/complete-guide-to-system-design#redundancyandreplication) <br>
-7. [08/01/2022] []()
+7. [08/01/2022] [Storage] <br>
+    1. Block Storage  <br>
+    2. File Storage <br>
+    3. Object Storage <br>
+    4. RAID<br>
 8. [09/01/2022] []()
 9. [10/01/2022] []()
 10. [11/01/2022][]()
