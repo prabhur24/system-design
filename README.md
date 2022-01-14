@@ -25,14 +25,16 @@
     - Scalability - Scaling(Horizontal/Vertical)<br>
     - [Microservice Architecture](https://www.educative.io/blog/complete-guide-to-system-design#microservices) <br>
     - [Proxy Server](https://www.educative.io/edpresso/what-is-a-proxy-server) <br>
-      1.forward proxy<br>
-      2.separate user from website (what they are browsing)<br>
-      3.Privacy/Speed/Bandwidth/Activity logging<br>
+        1. forward proxy<br>
+        2. separate user from website (what they are browsing)<br>
+        3. Privacy/Speed/Bandwidth/Activity logging<br>
     - [CAP Theorem](https://www.educative.io/blog/what-is-cap-theorem#whatiscaptheorem) <br>
-      1.Consistency : all nodes see same data (most recent write while read across all servers)<br>
-      2.Availability : (distributed systems) should respond without failure (but not gurantee on response with most
-      recent write)<br>
-      3.Partition Tolerance : break in communication b/w nodes (system does not fail)<br>
+        1. Consistency : all nodes see same data (most recent write while read across all servers)<br>
+        2. Availability : (distributed systems) should respond without failure (but not gurantee on response with most
+           recent write)<br>
+        3. Partition Tolerance : break in communication b/w nodes (system does not fail)<br>
+        4. PACELC Theorem - build on CAP & states that an additional trade-off exists: between latency and
+           consistency.<br>
 6. [07/01/2022] [Redundancy & Replication](https://www.educative.io/blog/complete-guide-to-system-design#redundancyandreplication) <br>
 7. [08/01/2022] []()
 8. [09/01/2022] []()
