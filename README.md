@@ -35,6 +35,8 @@
         3. Partition Tolerance : break in communication b/w nodes (system does not fail)<br>
         4. PACELC Theorem - build on CAP & states that an additional trade-off exists: between latency and
            consistency.<br>
+        5. [Ref 1]https://www.youtube.com/watch?v=eWMgsk7mpFc <br>
+           [Ref 2]https://www.youtube.com/watch?v=8UryASGBiR4
 6. [07/01/2022] [Redundancy & Replication](https://www.educative.io/blog/complete-guide-to-system-design#redundancyandreplication) <br>
 7. [08/01/2022] [Storage](https://www.educative.io/blog/complete-guide-to-system-design#storage) <br>
     1. Block Storage [SAN]  <br>
@@ -45,6 +47,7 @@
         - maintains Hierarchical  (folders/files)
         - can have lock on file level
         - simulataneous rd/wr
+        - [Block Vs File](https://www.youtube.com/watch?v=PmxWTTpXNLI)
     3. Object Storage <br>
         - designed to handle large amount of unstructured data
         - dynamic scalibility (backup/archive/log files) -TB/PB/even more
