@@ -36,7 +36,7 @@
         4. PACELC Theorem - build on CAP & states that an additional trade-off exists: between latency and
            consistency.<br>
 6. [07/01/2022] [Redundancy & Replication](https://www.educative.io/blog/complete-guide-to-system-design#redundancyandreplication) <br>
-7. [08/01/2022] [Storage] <br>
+7. [08/01/2022] [Storage](https://www.educative.io/blog/complete-guide-to-system-design#storage) <br>
     1. Block Storage [SAN]  <br>
         - Stored as block (each block has unique identifier for ease accessibility)
         - mounted on hypervisor layer on virtual/physical machines
@@ -46,7 +46,12 @@
         - can have lock on file level
         - simulataneous rd/wr
     3. Object Storage <br>
-    4. RAID<br>
+        - designed to handle large amount of unstructured data
+        - dynamic scalibility (backup/archive/log files) -TB/PB/even more
+    4. RAID<br> - Redundant Disk Array
+        - multiple disk - to build faster,bigger and more reliable system
+        - looks like disk , but internally its complex tool
+
 8. [09/01/2022] [Message queues]
     1. Kafka
 9. [10/01/2022] []()
