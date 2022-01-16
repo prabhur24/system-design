@@ -37,8 +37,14 @@
            consistency.<br>
 6. [07/01/2022] [Redundancy & Replication](https://www.educative.io/blog/complete-guide-to-system-design#redundancyandreplication) <br>
 7. [08/01/2022] [Storage] <br>
-    1. Block Storage  <br>
-    2. File Storage <br>
+    1. Block Storage [SAN]  <br>
+        - Stored as block (each block has unique identifier for ease accessibility)
+        - mounted on hypervisor layer on virtual/physical machines
+        - boot from volume (os,db) - higher performance/lowest possible latency
+    2. File Storage [NTFS/NFS] <br>
+        - maintains Hierarchical  (folders/files)
+        - can have lock on file level
+        - simulataneous rd/wr
     3. Object Storage <br>
     4. RAID<br>
 8. [09/01/2022] [Message queues]
