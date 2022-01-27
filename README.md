@@ -77,6 +77,17 @@
     - Popular distributed Streaming platform (handle more than 1 trillion/day)
     - consists of server/client - communicate through TCP protocol
     - **system allow to store/read/write/process events**
+      <br>
+    - **Records-Produced are replicated/partitioned in such way that allow high volume of users access application
+      simultaneously.**
+    - ex . Location sharing , data gathering
+      <br>
+      **[Core API of kafka](https://www.youtube.com/watch?v=aj9CDZm0Glc)** <br>
+
+    * Producer API (produce streams of data to topics)<br>
+    * Consumer API (subscribe to topics)<br>
+    * Stream API (Transform/leverage data)<br>
+    * Connector API (Reusable Producer/consumer)<br>
 
 9. [10/01/2022] []()
 10. [11/01/2022][]()
