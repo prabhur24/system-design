@@ -25,21 +25,19 @@
     - Scalability - Scaling(Horizontal/Vertical)<br>
     - [Microservice Architecture](https://www.educative.io/blog/complete-guide-to-system-design#microservices) <br>
     - [Proxy Server](https://www.educative.io/edpresso/what-is-a-proxy-server) <br>
-        1. forward proxy<br>
-        2. separate user from website (what they are browsing)<br>
-        3. Privacy/Speed/Bandwidth/Activity logging<br>
+        - forward proxy<br>
+        - separate user from website (what they are browsing)<br>
+        - Privacy/Speed/Bandwidth/Activity logging<br>
     - [CAP Theorem](https://www.educative.io/blog/what-is-cap-theorem#whatiscaptheorem) <br>
 
-
-        1. Consistency : all nodes see same data (most recent write while read across all servers)<br>
-        2. Availability : (distributed systems) should respond without failure (but not gurantee on response with most
-           recent write)<br>
-        3. Partition Tolerance : break in communication b/w nodes (system does not fail)<br>
-        4. PACELC Theorem - build on CAP & states that an additional trade-off exists: between latency and
-           consistency.<br>
-        5. [Ref 1]https://www.youtube.com/watch?v=eWMgsk7mpFc <br>
-           [Ref 2]https://www.youtube.com/watch?v=8UryASGBiR4
-
+        - Consistency : all nodes see same data (most recent write while read across all servers)<br>
+        - Availability : (distributed systems) should respond without failure (but not gurantee on response with most
+          recent write)<br>
+        - Partition Tolerance : break in communication b/w nodes (system does not fail)<br>
+        - **PACELC Theorem** - build on CAP & states that an additional trade-off exists: between latency and
+          consistency.<br>
+        - [Ref 1]https://www.youtube.com/watch?v=eWMgsk7mpFc <br>
+          [Ref 2]https://www.youtube.com/watch?v=8UryASGBiR4
 
 6. [07/01/2022] [Redundancy & Replication](https://www.educative.io/blog/complete-guide-to-system-design#redundancyandreplication) <br>
 7. [08/01/2022] [Storage](https://www.educative.io/blog/complete-guide-to-system-design#storage) <br>
@@ -59,21 +57,26 @@
         - multiple disk - to build faster,bigger and more reliable system
         - looks like disk , but internally its complex tool
 
-8. [09/01/2022] [Message queues]<br>
+8. [09/01/2022] [Message queues](https://www.educative.io/blog/complete-guide-to-system-design#messagequeues) <br>
 
-   Message - data needs to get transmitted (different types of data)
-   Queue - Holds in order and deliver
-   
-    
-    1. producer - queue - consumer (P2P)
-    2. producer - queue - subscriber (PubSub)
-    3. producer/consumer - queue - producer/consumer (Request-Reply , Reply-Request)
+   **Message** - data needs to get transmitted (different types of data)<br>
+   **Queue** - Holds in order and deliver
 
-    1. route message from source to destination (FIFO)
-    2. facilitate asynchronous behaviour
-    3. cross module communication
-    4. Provide temporary storage until processed/consumed
-    5. breakdown application (loosely coupled)
+    - producer - queue - consumer **(P2P)**
+    - producer - queue - subscriber **(PubSub)**
+    - producer/consumer - queue - producer/consumer **(Request-Reply , Reply-Request)**
+      <br><br>
+    - route message from source to destination (FIFO)<br>
+    - facilitate asynchronous behaviour<br>
+    - cross module communication<br>
+    - Provide temporary storage until processed/consumed<br>
+    - breakdown application (loosely coupled)<br>
+
+   **[Messaging System-Kafka]**
+    - 2011/LinkedIn/Internal Use
+    - Popular distributed Streaming platform (handle more than 1 trillion/day)
+    - consists of server/client - communicate through TCP protocol
+    - **system allow to store/read/write/process events**
 
 9. [10/01/2022] []()
 10. [11/01/2022][]()
