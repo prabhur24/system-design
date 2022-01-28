@@ -72,7 +72,7 @@
     - Provide temporary storage until processed/consumed<br>
     - breakdown application (loosely coupled)<br>
 
-   **[Messaging System-Kafka]**
+   **[Messaging System-Kafka](https://www.ibm.com/cloud/learn/message-queues?utm_medium=OSocial&utm_source=Youtube&utm_content=CPIWW&utm_id=YTCard-101-What-is-Message-Queuing-LH-Message-Queues-Guide) **
     - 2011/LinkedIn/Internal Use
     - Popular distributed Streaming platform (handle more than 1 trillion/day)
     - consists of server/client - communicate through TCP protocol
