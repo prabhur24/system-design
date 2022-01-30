@@ -6,4 +6,9 @@
     - Loon technology
     - types of cables
       <br>
-      
+
+2. History of Internet & Web
+    - soviet union & usa - cold war
+    - ARPA USA agency (MIT,stanford,UCLA,Utah) - interconnected via TCP
+    - Web introduced for research reference
+    - web server/protocol
