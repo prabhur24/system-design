@@ -11,4 +11,5 @@
     - soviet union & usa - cold war
     - ARPA USA agency (MIT,stanford,UCLA,Utah) - interconnected via TCP
     - Web introduced for research reference
-    - web server/protocol
+    - web server/protocol/cookie
+    - Topic API (Google Sandbox) - new way for privacy
