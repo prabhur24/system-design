@@ -15,3 +15,16 @@
     - ps
     - volumes (-v)
     - managing container
+
+3. [Dockerfile]   build own image (start up behaviour for single container)
+    - Dockerfile --> Image --> Run (Container)
+    - FROM
+    - RUN/CMD/ENTRYPOINT
+    - ADD/COPY
+    - EXPOSE
+    - VOLUME
+    - LABEL
+    - MAINTAINER (Deprecated)
+    - SCOPE/USER/ARG
+    - ENV
+    - WORKDIR
