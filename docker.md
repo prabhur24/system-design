@@ -28,3 +28,11 @@
     - SCOPE/USER/ARG
     - ENV
     - WORKDIR
+
+4. [.Dockerignore]
+
+5. Caching & Layers
+6. Alpine
+7. Tagging & Versions
+8. Docker Registries
+9. inpect/logs/exec -it
