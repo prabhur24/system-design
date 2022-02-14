@@ -35,4 +35,12 @@
 6. Alpine
 7. Tagging & Versions
 8. Docker Registries
-9. inpect/logs/exec -it
+9. inspect/logs/exec -it
+
+10. docker-d
+11. docker compose
+12. docker engine
+13. docker runtime 
+14. docker swarm
+15. volume 
+16. network
