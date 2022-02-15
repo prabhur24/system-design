@@ -89,8 +89,23 @@
     * Stream API (Transform/leverage data)<br>
     * Connector API (Reusable Producer/consumer)<br>
 
-9. [10/01/2022] []()
-10. [11/01/2022][]()
+9. [10/01/2022] [What happens after URL enter into browser?](https://www.linkedin.com/posts/alex-xu-a8131b11_systemdesign-coding-interviewtips-activity-6896855295549681664-Ge0c)
+    - URL (scheme,domain,path,resource)
+    - browser looks up the IP address (to make process fast cached at different layers)
+        - browser cache, os cache,local network cache, ISP cache
+        - if IP address not found, then goes on DNS server lookup (recursive lookup until it founds)
+    - if we have IP address , ** then browser establish TCP connection with server **
+    - browser send HTTP(scheme) request to server
+    - server process & sends back the response and browser renders the html content
+10. [11/01/2022][How DNS look up works?](https://www.linkedin.com/posts/alex-xu-a8131b11_systemdesign-coding-interviewtips-activity-6897218354021564417-SzIs)
+    - DNS acts as a address book (translates human-readable domain names into machine-readable IP addresses)
+    - for Better scalability, DNS server organized into hierarchical tree structure
+    - 3 basic level - root name server, tld server, authoritative server
+    - root name server - store IP address of TLD server and 13 logical root server
+    - tld server - stores IP address of authoritative server (like .test , count code server)
+    - authoritative server - actual returns the answer to DNS query (we can register authoritative name server with
+      domain name registrar such as godaddy,namecheap..)
+        - DNS lookup average takes 20-120 milli secs to complete.
 11. [12/01/2022][]()
 12. [13/01/2022][]()
 13. [14/01/2022][]()
