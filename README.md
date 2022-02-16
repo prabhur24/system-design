@@ -106,7 +106,15 @@
     - authoritative server - actual returns the answer to DNS query (we can register authoritative name server with
       domain name registrar such as godaddy,namecheap..)
         - DNS lookup average takes 20-120 milli secs to complete.
-11. [12/01/2022][]()
+11. [12/01/2022][What happens when outlook client(alice) sends email to gmail client(bob)?](https://www.linkedin.com/feed/update/urn:li:activity:6891786683113721856/)
+    - SMTP Server (store) & communication between client and mail server also SMTP
+        - standard mail transfer protocol - used for sending mail from 1 server to another
+    - IMAP/POP server (fetch when log in)
+        - POP (Post office protocol) - used for retrieve/download email from remote server to local server , delete from
+          mail server
+        - IMAP (Internet mail address protocol) - used for download from local server (commonly used protocol for
+          individual accounts)
+
 12. [13/01/2022][]()
 13. [14/01/2022][]()
 14. [15/01/2022][]()
