@@ -41,3 +41,17 @@
 
 32. history - commands which are executed in shell session 
 33. alias - short cut for commands
+
+[CPU/OS]
+
+34. lscpu
+35. netstat
+36. top
+37. vmstat
+38. free -m
+
+39. lsof - list open files
+40. nslookup
+41. sed - stream editor
+42. cut - cut out selected portion of particular file
+43. htop - heating up resources
