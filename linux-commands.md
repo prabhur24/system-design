@@ -55,3 +55,6 @@
 41. sed - stream editor
 42. cut - cut out selected portion of particular file
 43. htop - heating up resources
+44. iostat
+45. w
+
