@@ -115,7 +115,10 @@
         - IMAP (Internet mail address protocol) - used for download from local server (commonly used protocol for
           individual accounts)
 
-12. [13/01/2022][]()
+12. [13/01/2022][Why is Redis So fast?](https://www.linkedin.com/posts/alex-xu-a8131b11_systemdesign-coding-interviewtips-activity-6904466435716763648-FnF0)
+    - RAM based data store
+    - IO Multi threaded and single threaded execution for execution efficiency
+    - lower level data structures 
 13. [14/01/2022][]()
 14. [15/01/2022][]()
 15. [16/01/2022][]()
