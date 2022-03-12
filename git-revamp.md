@@ -30,4 +30,18 @@
     - <i>git reset </i> - unable to go back to future (loss our commits)
     - <i>git revert </i> - take existing file in past and merge with last commit
 
-11. **git reflog** - to recover project history - show list of times when HEAD changed 
+    i. **git reset**
+    - git reset --soft : restore to staged state
+    - git reset --mixed : restore to modified state
+    - git reset --hard : restore to committed state
+
+11. **git reflog** - to recover project history - show list of times when HEAD changed
+
+12. **git checkout HEAD/HEAD~1** -
+    - ~ previous nth-commit
+    - ^ previous nth - parent commit
+
+13. **git branching**
+14. **git merge**
+15. **git blame** - show what revision /author / last modified each line
+16. **git remote** 
