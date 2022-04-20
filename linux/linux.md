@@ -27,12 +27,12 @@
     4. Network subsystem
     5. Inter-process communication
 
-11. Working with Directories 
+11. Working with Directories
     1. mkdir
     2. rmdir
-    
+
 12. Working with files
-    1. file 
+    1. file
     2. touch
     3. cat
     4. echo
@@ -44,3 +44,19 @@
     10. head
     11. tail
 
+13. Linux File Structure (cd /) - where OS stored
+    1. /bin - core utilities & functions of OS stored
+    2. /etc - application configurations are installed
+    3. /home - users directory
+    4. /lib - binaries are stored (linux packages) , lib32 (32bit) , lib64 (64bit)
+    5. /media - USB,external devices
+    6. /mnt - shared devices (mounting folder,drives)
+    7. /proc - processes information pesudo-file system
+    8. /opt - optional software (depends on distribution)
+    9. /root - home directory for root account (build in user - root access, disabled by default to access)
+    10. /run - auto mounted USB device (desktop env)
+    11. /sbin - dedicated to certain commands for root user
+    12. /tmp - file temporarily stored
+    13. /snap - software packages (ubuntu) - software container
+    14. /usr - files and utilities shared between users
+    15. /var - variable data is kept (sys logs,)
