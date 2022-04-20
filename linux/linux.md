@@ -79,4 +79,5 @@
 16. Package Manager
     1. sudo - run command as another user (super user do)
     2. apt - debian - advanced package management tool.
-    3. 
+
+
