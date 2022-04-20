@@ -26,3 +26,21 @@
     3. Virtual Filesystem - Unified Interface to access 'stored data' from different filesystem
     4. Network subsystem
     5. Inter-process communication
+
+11. Working with Directories 
+    1. mkdir
+    2. rmdir
+    
+12. Working with files
+    1. file 
+    2. touch
+    3. cat
+    4. echo
+    5. rm
+    6. copy
+    7. move
+    8. more
+    9. less
+    10. head
+    11. tail
+
