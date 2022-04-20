@@ -60,3 +60,23 @@
     13. /snap - software packages (ubuntu) - software container
     14. /usr - files and utilities shared between users
     15. /var - variable data is kept (sys logs,)
+
+14. System Information
+    1. uptime - system uptime,load, user
+    2. free - amount of memory free and used
+    3. ps - process current snapshot
+    4. du - disk file usuage
+    5. df - disk file system
+    6. fdisk - disk detail mounted type,partition table
+    7. lsblk - list block devices
+    8. top - processes summary,uptime,files....
+    9. htop - interactive process viewer
+
+15. Network
+    1. ifconfig - interface to configure network
+    2. ip - show/manipulate - route,network...
+
+16. Package Manager
+    1. sudo - run command as another user (super user do)
+    2. apt - debian - advanced package management tool.
+    3. 
