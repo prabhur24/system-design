@@ -1,4 +1,12 @@
 # system-design
+---
+Linux
+
+* [Linux](linux/linux.md)
+* [commands](linux/linux-commands.md)
+* [OS commands](linux/os-commands.md)
+
+---
 
 1. [02/01/2022] - [what it is?](https://www.educative.io/blog/system-design-primer#what)
 2. [03/01/2022] [Kinds of System]
@@ -131,4 +139,6 @@
 16. [17/01/2022][]()
 17. [18/01/2022][]()
 18. [19/01/2022][]()
-19. [20/01/2022][]()   
+19. [20/01/2022][]()
+
+---
