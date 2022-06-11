@@ -134,11 +134,4 @@ Linux
        network (internet)
     4. utilites : ssh - connection between machine, file transfer(scp),secure login (slogin)
     5. history, SSH-1 deprectaed  (not safe to use), SSH-2 (15 years)
-14. [15/01/2022][]()
-15. [16/01/2022][]()
-16. [17/01/2022][]()
-17. [18/01/2022][]()
-18. [19/01/2022][]()
-19. [20/01/2022][]()
-
 ---
