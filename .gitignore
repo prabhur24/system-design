@@ -1,2 +1,7 @@
 .idea/
 system-design.iml
+hashicorp-terraform/learn/demo-server/.terraform.lock.hcl
+hashicorp-terraform/learn/demo-server/.terraform
+hashicorp-terraform/learn/demo-server/terraform.tfstate
+hashicorp-terraform/learn/demo-server/terraform.tfstate.backup
+hashicorp-terraform/learn/demo-server/terraform.tfstate.d/

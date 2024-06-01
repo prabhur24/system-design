@@ -5,6 +5,13 @@ terraform {
       version = "5.52.0"
     }
   }
+
+  //cloud {
+    //workspaces {
+    //  name = "test-workspace"
+    //}
+    //organization = "eto-pr"
+  //}
 }
 
 provider "aws" {

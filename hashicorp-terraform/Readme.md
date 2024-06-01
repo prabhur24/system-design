@@ -49,3 +49,33 @@ Iii. Side affects from SDK,API , CLI
 5. apply - execute the terraform plan to provision the infrastructure
 6. destroy -  destroy the remote infrastructure.
 
+> Change Automation (change management) - "way automatically creating consistent/systematic/predicatable" way of managing change request via control & policies. 
+i. Execution plans - manual review what will change/add/destroy before you apply.
+ii. Resource graphs - terraform build "dependency graph from the configuration files and walks into this graph to generate plan/refresh state/...." 
+
+ChangeSet - commits changed over time in repository.
+
+Terraform knows what changes exactly and in what order to execute , avoiding human errors.
+
+
+> Terraform core split into 2 main parts
+i. Terraform core - use rpc to communicate with terraform plugins
+Ii. Terraform plugins - expose an implementation for specific service or provisioner.
+
+> commands
+    
+       1. terraform init
+       2. terraform plan
+       3. terraform apply
+       4. terraform destroy
+       5. terraform fmt
+       6. terraform local variables
+       7. terraform variables
+       8. terraform output
+       9. Divide into multiple files
+       10. provider.
+
+
+
+
+

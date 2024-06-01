@@ -9,5 +9,4 @@ resource "aws_instance" "instance" {
     Name      = "test-instance"
     ManagedBy = "terraform"
   }
-  provider = aws.India
 }
