@@ -32,9 +32,9 @@ Exam about :
 > Provisioning , Deployment , Orchestration
 
 > Configuration Drift - when you provisioned server and there is (unexpected) change in configuration due to
-i. Manually adjusting configurations
-ii. Malicious actors
-Iii. Side affects from SDK,API , CLI
+    i. Manually adjusting configurations
+    ii. Malicious actors
+    Iii. Side affects from SDK,API , CLI
 
 
 > Terraform encourage Immutabel Infrastructure architecture.
@@ -42,16 +42,17 @@ Iii. Side affects from SDK,API , CLI
 > Hashicorp - open source / cloud - unified portal to maintain & manage
 
 > Terraform Life cycle
-1. code - write terraform configuration file
-2. init - initialize provider (project) - pull latest provider / modules
-3. plan - speculate what will change or generate a execution plan
-4. validate - ensure type & values are valid (attributes are present)
-5. apply - execute the terraform plan to provision the infrastructure
-6. destroy -  destroy the remote infrastructure.
+       1. code - write terraform configuration file
+       2. init - initialize provider (project) - pull latest provider / modules
+       3. plan - speculate what will change or generate a execution plan
+       4. validate - ensure type & values are valid (attributes are present)
+       5. apply - execute the terraform plan to provision the infrastructure
+       6. destroy -  destroy the remote infrastructure.
 
-> Change Automation (change management) - "way automatically creating consistent/systematic/predicatable" way of managing change request via control & policies. 
+
+> Change Automation (change management) - "way automatically creating consistent/systematic/predicatable" way of managing change request via control & policies.
 i. Execution plans - manual review what will change/add/destroy before you apply.
-ii. Resource graphs - terraform build "dependency graph from the configuration files and walks into this graph to generate plan/refresh state/...." 
+ii. Resource graphs - terraform build "dependency graph from the configuration files and walks into this graph to generate plan/refresh state/...."
 
 ChangeSet - commits changed over time in repository.
 
@@ -61,6 +62,8 @@ Terraform knows what changes exactly and in what order to execute , avoiding hum
 > Terraform core split into 2 main parts
 i. Terraform core - use rpc to communicate with terraform plugins
 Ii. Terraform plugins - expose an implementation for specific service or provisioner.
+
+
 
 > commands
     
@@ -74,6 +77,22 @@ Ii. Terraform plugins - expose an implementation for specific service or provisi
        8. terraform output
        9. Divide into multiple files
        10. provider.
+
+
+> Terraform Provisioner - install s/w , edit files & provision machines created with terraform
+
+Ex : user-data in aws when instance launches
+
+a. cloud-init - cross platform cloud instance initialisations. (Tool to configure machine instance at boot time)
+b. packer - automated image-builder service  (tool to create machine image with predefined configuration)
+
+
+
+> Terraform null_resource (does not provision any real infrastructure , to execute and manage independently) vs data - to retrieve the existing infrastructure that is external to terraform or managed by other configuration - read-only help/use information that already exist. 
+
+
+
+
 
 
 
