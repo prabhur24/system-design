@@ -7,10 +7,10 @@ terraform {
   }
 
   //cloud {
-    //workspaces {
-    //  name = "test-workspace"
-    //}
-    //organization = "eto-pr"
+  //workspaces {
+  //  name = "test-workspace"
+  //}
+  //organization = "eto-pr"
   //}
 }
 
