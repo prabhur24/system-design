@@ -1,6 +1,6 @@
 resource "aws_instance" "instance" {
-  ami           = local.ami_id
-  instance_type = "t2.nano"
+  ami           = var.ami_1
+  instance_type = var.i_type
 
 
   associate_public_ip_address = true
@@ -14,11 +14,11 @@ resource "aws_instance" "instance" {
     command = "echo ${aws_instance.instance.public_ip} > instance_ip.txt"
   }
 
-  provisioner "remote-exec" {
-    inline = [
-      "sudo yum update"
-    ]
-  }
+  #provisioner "remote-exec" {
+  #inline = [
+  #  "sudo yum update"
+  #]
+  #}
 }
 
 resource "null_resource" "example" {
