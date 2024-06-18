@@ -6,3 +6,4 @@ hashicorp-terraform/learn/demo-server/terraform.tfstate
 hashicorp-terraform/learn/demo-server/terraform.tfstate.backup
 hashicorp-terraform/learn/demo-server/terraform.tfstate.d/
 hashicorp-terraform/learn/demo-server/instance_ip.txt
+hashicorp-terraform/learn/spotify/provider.tf

@@ -1,5 +1,5 @@
 resource "aws_instance" "instance" {
-  ami           = var.ami_1
+  ami           = data.aws_ami.test.id
   instance_type = var.i_type
 
 
@@ -10,9 +10,10 @@ resource "aws_instance" "instance" {
     ManagedBy = "terraform"
   }
 
-  provisioner "local-exec" {
-    command = "echo ${aws_instance.instance.public_ip} > instance_ip.txt"
-  }
+  #provisioner "local-exec" {
+  #command = "echo ${aws_instance.instance.public_ip} > instance_ip.txt"
+  # command = "echo jsonencode(${aws_instance.instance}) > instance_ip.txt"
+  #}
 
   #provisioner "remote-exec" {
   #inline = [
@@ -48,3 +49,12 @@ resource "null_resource" "test_instance" {
   }
 }
 */
+
+
+data "aws_ami" "test" {
+  filter {
+    name = "tag:Name"
+    values = ["base-2023"]
+  }
+  most_recent = true
+}
