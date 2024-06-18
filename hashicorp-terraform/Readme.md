@@ -45,7 +45,7 @@ Exam about :
 
 > Hashicorp - open source / cloud - unified portal to maintain & manage
 
-> Terraform Life cycle
+> Terraform Life cycle <br>
        1. code - write terraform configuration file<br>
        2. init - initialize provider (project) - pull latest provider / modules<br>
        3. plan - speculate what will change or generate an execution plan<br>
