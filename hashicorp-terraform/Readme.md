@@ -46,13 +46,13 @@ Exam about :
 > Hashicorp - open source / cloud - unified portal to maintain & manage
 
 > Terraform Life cycle
-       1. code - write terraform configuration file
-       2. init - initialize provider (project) - pull latest provider / modules
-       3. plan - speculate what will change or generate an execution plan
-       4. validate - ensure type & values are valid (attributes are present)
-       5. apply - execute the terraform plan to provision the infrastructure
-       6. destroy -  destroy the remote infrastructure.
-
+       1. code - write terraform configuration file<br>
+       2. init - initialize provider (project) - pull latest provider / modules<br>
+       3. plan - speculate what will change or generate an execution plan<br>
+       4. validate - ensure type & values are valid (attributes are present)<br>
+       5. apply - execute the terraform plan to provision the infrastructure<br>
+       6. destroy -  destroy the remote infrastructure.<br>
+<br>
 
 > Change Automation (change management) - "way automatically creating consistent/systematic/predictable" way of managing change request via control & policies.
 i. Execution plans - manual review what will change/add/destroy before you apply.
