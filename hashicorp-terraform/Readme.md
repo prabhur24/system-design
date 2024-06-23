@@ -38,7 +38,7 @@ to transfer configuration knowledge.**
 > Configuration Drift - when you provisioned server and there is **(unexpected) change in configuration due to**
 > i. Manually adjusting configurations
 > ii. Malicious actors (breach data)
-> Iii. Side effects from SDK,API , CLI
+> iii. Side effects from SDK,API , CLI
 
 > configuration drift **result in interruption of services or unexpected downtime.**
 

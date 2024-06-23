@@ -20,6 +20,18 @@ resource "aws_instance" "instance" {
   #  "sudo yum update"
   #]
   #}
+
+  provisioner "remote-exec" {
+    inline = ["echo $HOSTNAME > /home/ec2-user/hostname.txt"]
+
+    connection {
+      type = "ssh"
+      user = "ec2-user"
+      host = self.public_ip
+      private_key = file("~/.ssh/id_rsa")
+    }
+  }
+
 }
 
 resource "null_resource" "example" {
