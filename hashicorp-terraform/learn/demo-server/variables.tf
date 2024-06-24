@@ -11,11 +11,16 @@ variable "i_type" {
 variable "test_list" {
   type        = list(any)
   description = "sample list"
+  default     = ["prabhu", "rajendran"]
 }
 
 variable "test_map" {
   type        = map(string)
   description = "sample map"
+  default = {
+    "Name" : "Prabhu"
+    "Age" : 27
+  }
 }
 
 locals {

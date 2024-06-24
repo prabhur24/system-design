@@ -25,9 +25,9 @@ resource "aws_instance" "instance" {
     inline = ["echo $HOSTNAME > /home/ec2-user/hostname.txt"]
 
     connection {
-      type = "ssh"
-      user = "ec2-user"
-      host = self.public_ip
+      type        = "ssh"
+      user        = "ec2-user"
+      host        = self.public_ip
       private_key = file("~/.ssh/id_rsa")
     }
   }
@@ -45,6 +45,8 @@ resource "null_resource" "example" {
 
   #depends_on = [aws_instance.instance]
 }
+
+resource "terraform_data" "test" {}
 
 # null_resource that has no specific resource to a provider resources
 /*
@@ -65,7 +67,7 @@ resource "null_resource" "test_instance" {
 
 data "aws_ami" "test" {
   filter {
-    name = "tag:Name"
+    name   = "tag:Name"
     values = ["base-2023"]
   }
   most_recent = true
